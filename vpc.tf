@@ -4,6 +4,7 @@ variable "region" {
 }
 
 provider "aws" {
+  source= "hashicorp/aws"
   region = var.region
 }
 
